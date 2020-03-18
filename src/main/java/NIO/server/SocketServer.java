@@ -1,4 +1,4 @@
-package server;
+package NIO.server;
 
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
@@ -59,7 +59,7 @@ public class SocketServer {
         clientChannel.register(selectionKey.selector(), SelectionKey.OP_READ);
 
         sendInfo(clientChannel, "连接服务器成功!");
-        System.err.println("client IP :" + clientChannel.socket().getRemoteSocketAddress());
+        System.err.println("NIO.client IP :" + clientChannel.socket().getRemoteSocketAddress());
     }
 
     public static void handleRead(SelectionKey key) throws Exception {

@@ -1,4 +1,4 @@
-package client;
+package NIO.client;
 
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
