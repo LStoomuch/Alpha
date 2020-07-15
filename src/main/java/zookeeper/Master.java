@@ -22,13 +22,18 @@ public class Master implements Watcher {
         }
     }
 
+    void stopZK() throws Exception {
+        zk.close();
+    }
+
     public void process(WatchedEvent watchedEvent) {
         System.out.println(watchedEvent);
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws Exception {
         Master master = new Master("127.0.0.1:2181");
         master.startZK();
         Thread.sleep(60000);
+        master.stopZK();
     }
 }
