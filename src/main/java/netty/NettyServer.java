@@ -15,13 +15,19 @@ public class NettyServer {
 
     public void bind(int port) throws Exception {
         //配置线程组
-        EventLoopGroup bossGroup = new NioEventLoopGroup(); //#20
+        //NioEventLoopGroup实际上是Reactor线程组，负责调度和执行客户端的接入、网络读写事件
+        EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workGroup = new NioEventLoopGroup();
         try {
+            //启动辅助类
             ServerBootstrap bootstrap = new ServerBootstrap();
+            //绑定Reactor线程池
             bootstrap.group(bossGroup, workGroup)
+                    //绑定服务端Channel
                     .channel(NioServerSocketChannel.class)
-                    .option(ChannelOption.SO_BACKLOG, 1024)// ????
+                    //网络事件责任链（非服务端必须设置）
+                    .option(ChannelOption.SO_BACKLOG, 1024)
+                    //用户定制和扩展，利用ChannelHandler可以完成消息编解码、心跳、安全认证、流量控制等等
                     .childHandler(new ChildChannelHandler());
             //绑定端口、同步等待成功
             ChannelFuture future = bootstrap.bind(port).sync();
