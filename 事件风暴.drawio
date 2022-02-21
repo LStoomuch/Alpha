@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T08:39:59.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="kIC7lWZM9HebGb83bJ6t" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T08:42:39.743Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="6PAUtbfXDuk1D8WzeZ2B" version="16.2.4" type="github">
   <diagram id="dmc_jjyUeDHT-t8ddCzY" name="第 1 页">
     <mxGraphModel dx="2359" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,12 +12,6 @@
         </mxCell>
         <mxCell id="A0VqJZo3lDfQpK3hPcdt-1" value="&lt;font color=&quot;#ffffff&quot;&gt;创建招商方案&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B266FF;" vertex="1" parent="1">
           <mxGeometry x="90" y="390" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="A0VqJZo3lDfQpK3hPcdt-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontColor=#FFFFFF;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-240" y="360" as="sourcePoint" />
-            <mxPoint x="1160" y="360" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="A0VqJZo3lDfQpK3hPcdt-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="A0VqJZo3lDfQpK3hPcdt-5" target="A0VqJZo3lDfQpK3hPcdt-9">
           <mxGeometry relative="1" as="geometry" />
@@ -175,10 +169,10 @@
         <mxCell id="A0VqJZo3lDfQpK3hPcdt-67" value="&lt;font color=&quot;#ffffff&quot;&gt;用户已下单&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="630" y="1195" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="A0VqJZo3lDfQpK3hPcdt-72" value="&lt;font color=&quot;#ffffff&quot;&gt;创建活动模版&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B266FF;" vertex="1" parent="1">
+        <mxCell id="A0VqJZo3lDfQpK3hPcdt-72" value="&lt;font color=&quot;#ffffff&quot;&gt;创建活动模版&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B266FF;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-80" y="390" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="A0VqJZo3lDfQpK3hPcdt-73" value="&lt;font color=&quot;#ffffff&quot;&gt;活动模版已创建&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="A0VqJZo3lDfQpK3hPcdt-73" value="&lt;font color=&quot;#ffffff&quot;&gt;活动模版已创建&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-40" y="430" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="A0VqJZo3lDfQpK3hPcdt-74" value="&lt;font color=&quot;#ffffff&quot;&gt;活动模版已创建&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
@@ -330,6 +324,12 @@
         </mxCell>
         <mxCell id="A0VqJZo3lDfQpK3hPcdt-141" value="&lt;font color=&quot;#ffffff&quot;&gt;资源信息&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-120" y="1590" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A0VqJZo3lDfQpK3hPcdt-144" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-240" y="360" as="sourcePoint" />
+            <mxPoint x="1160" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
